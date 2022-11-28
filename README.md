@@ -13,7 +13,7 @@ To run test cases:
 To change the airport, airline and route files:
 - go to data_reader.cpp
 - replace airports.csv, airlines.csv and routes.csv with similar files you want to use
-- replace the input file using the steps mentioned above
+- replace the input file (with the source and destination) using the steps mentioned above
 - then run the main file
 
 **Tech Stack**
