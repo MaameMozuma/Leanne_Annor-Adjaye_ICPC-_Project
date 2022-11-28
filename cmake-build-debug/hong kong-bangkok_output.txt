@@ -1,0 +1,4 @@
+1. CX from HKG to BKK 0 stops
+Total flights: 1
+Total additional stops: 0
+Optimality Criteria: flights
