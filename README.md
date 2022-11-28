@@ -43,15 +43,18 @@ Clion C++ 11
     
     - breadth_first_search.cpp
     - breadth_first_search.h
+    
+    - helper.cpp
+    - helper.h
    
 
 RUN 
 
 
-`https://github.com/MaameMozuma/Leanne_Annor-Adjaye_C-_Project.git`
+`https://github.com/MaameMozuma/Leanne_Annor-Adjaye_ICPC-_Project.git`
 
-`cd src`
+`cd Leanne_Annor-Adjaye_ICP_Project`
 
-run `javac Main.java`
+run `CLang main.cpp`
 
-run `java Main`
+run `Leanne_Annor_Adjaye_ICP_Project.exe`
