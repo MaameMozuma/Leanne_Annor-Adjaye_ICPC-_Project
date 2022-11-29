@@ -2,7 +2,7 @@
 
 ## ICP C++ Individual Project
 
-NB: Kindly select Leanne_Annor-Adjaye_ICP_Project to see all files that were created. It includes the reflection document, csv files, c++ files and .txt files.
+NB: Kindly look at Leanne_Annor-Adjaye_ICPC-_Project to see all files that were created. It includes the reflection document, csv files, c++ files and .txt files.
 To run test cases:
 - create your .txt file and make sure it is in the Testing directory under CMakeFiles
 - go the main.cpp file
