@@ -230,4 +230,7 @@ void breadth_first_search::write_to_file(list<Node> solutionPath) {
         outputStream << "Total additional stops: " << total_num_stops << endl;
         outputStream << "Optimality Criteria: flights" << endl;
     }
+    else{
+        cerr << "Error creating the file" << endl;
+    }
 }
