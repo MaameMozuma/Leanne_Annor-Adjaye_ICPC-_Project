@@ -6,7 +6,7 @@ NB: Kindly look at Leanne_Annor-Adjaye_ICPC-_Project to see all files that were 
 To run test cases:
 - create your .txt file and make sure it is in the Testing directory under CMakeFiles
 - go the main.cpp file
-- find bfs("accra-sydney.txt") 
+- find bfs("accra-rio de janeiro.txt") 
 - replace "accra-rio de janeiro.txt" with your input file with quotation marks. E.g. "accra-istanbul.txt"
 - Run the main.cpp to test the code
 
