@@ -57,4 +57,4 @@ RUN
 
 run `CLang main.cpp`
 
-run `Leanne_Annor_Adjaye_ICP_Project.exe`
+run `Leanne_Annor-Adjaye_ICPC-_Project-main.exe`
