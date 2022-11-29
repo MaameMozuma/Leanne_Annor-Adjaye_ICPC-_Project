@@ -100,7 +100,8 @@ bool breadth_first_search:: breadth_first(){
                 if (!(contains_in_list(explored_nodes, airport.getIataCode())) and !find_object(Frontier, airport.getIataCode())){
                     if (goal_test(airport.getIataCode()) == 1 ){
                         cout << "Found a solution!" << endl;
-                        print_path(child);
+                        list<Node> path = solution_path(child);
+                        write_to_file(path);
                         return true;
                     }
                     Frontier.push(child);
@@ -172,21 +173,16 @@ Node breadth_first_search:: get_valid_route(const Node& dest) {
     return empty_node;
 }
 
-/**This is printing the path to a file.
- * @param destination
+
+/**
+ * This function is used to get the valid route from the path dictionary
+ * @param destination This is the destination node.
+ * @return a list of nodes.
  */
-void breadth_first_search::print_path(Node destination) {
+list <Node> breadth_first_search::solution_path(Node destination) {
     //declaring and defining variables
-    string file_name;
-    fstream outputStream;
-    list <Node> actions;
-    int count = 1;
-    int total_num_stops = 0;
+    list<Node> actions;
 
-    file_name = split_function(input_file_name, '.').front();
-
-    //creating a file name
-    file_name = file_name + string("_output.txt");
 
     actions.push_front(destination);
 
@@ -200,12 +196,29 @@ void breadth_first_search::print_path(Node destination) {
         }
     }
 
+    return actions;
+}
+
+/**
+ * This function writes the solution path to a file
+ * @param solutionPath This is the list of nodes that are the solution path.
+ */
+void breadth_first_search::write_to_file(list<Node> solutionPath) {
+    string file_name;
+    fstream outputStream;
+    int count = 1;
+    int total_num_stops = 0;
+
+    file_name = split_function(input_file_name, '.').front();
+
+    //creating a file name
+    file_name = file_name + string("_output.txt");
 
     outputStream.open(file_name, ios::out);
 
     if (outputStream.is_open()) { //printing the path to the file whilst the file is a valid file
         //This is printing the path to a file.
-        for (const Node& fin_nodes: actions) {
+        for (const Node& fin_nodes: solutionPath) {
             if (fin_nodes.getParent() != " ") {
                 outputStream << count << ". " << fin_nodes.getAirlineCode() << " from " << fin_nodes.getParent() << " to "
                              << fin_nodes.getChild()  << " " << fin_nodes.getNumOfStops() << " stops" << endl;
@@ -213,7 +226,7 @@ void breadth_first_search::print_path(Node destination) {
                 count++;
             }
         }
-        outputStream << "Total flights: " << actions.size() - 1 << endl;
+        outputStream << "Total flights: " << solutionPath.size() - 1 << endl;
         outputStream << "Total additional stops: " << total_num_stops << endl;
         outputStream << "Optimality Criteria: flights" << endl;
     }

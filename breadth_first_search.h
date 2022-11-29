@@ -36,7 +36,8 @@ class breadth_first_search{
         bool breadth_first();
         int goal_test(const string& airport_code);
         Node get_valid_route(const Node& dest);
-        void print_path(Node destination);
+        list<Node> solution_path(Node destination);
+        void write_to_file(list<Node> solutionPath);
         list<Route> actions(const string& iata_code);
 };
 
