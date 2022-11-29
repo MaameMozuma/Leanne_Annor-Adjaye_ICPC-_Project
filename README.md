@@ -12,8 +12,7 @@ To run test cases:
   - make sure your city and country begin with a capital letter and are separated by a comma and a space
 - go the main.cpp file
 - find bfs("accra-rio de janeiro.txt") 
-- replace "accra-rio de janeiro.txt" with the absolute file path of the input file with quotation marks. E.g. "C:\user\downloads\accra-istanbul.txt"
-- go to the data_reader.cpp file and change the file paths of the airlines, airports and routes .csv files to the absolute file paths of the folder you are running it from in order to run the code
+- replace "accra-rio de janeiro.txt" with the input file with quotation marks. E.g. "accra-istanbul.txt"
 - Run the main.cpp to test the code
 
 To change the airport, airline and route files:
@@ -25,6 +24,7 @@ To change the airport, airline and route files:
 **Tech Stack**
 
 Clion C++ 14
+cmake version 3.23
 
 **Entry Point of Program**
 
