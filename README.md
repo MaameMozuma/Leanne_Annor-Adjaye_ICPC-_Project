@@ -65,4 +65,4 @@ run `CLang main.cpp`
 
 run `Leanne_Annor-Adjaye_ICPC-_Project-main.exe`
 
-**NB: Please create your .txt file in `cmake-build-debug` for the code to run properly
+**NB: Please create your .txt file in `cmake-build-debug` for the code to run properly**
