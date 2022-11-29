@@ -4,7 +4,7 @@
 
 NB: Kindly look at Leanne_Annor-Adjaye_ICPC-_Project to see all files that were created. It includes the reflection document, csv files, c++ files and .txt files.
 To run test cases:
-- create your .txt file and make sure it is in the Testing directory under cmake-build-debug
+- create your .txt file and make sure it is in the directory under cmake-build-debug
 - make sure your text file has content inside. To enter a destination, follow this format: 
   - for your source location, you can do: Accra, Ghana on the first line
   - for your destination location, you can do: Istanbul, Turkey on the second line
