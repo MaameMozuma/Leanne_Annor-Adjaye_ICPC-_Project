@@ -22,7 +22,7 @@ Clion C++ 14
 
 **Entry Point of Program**
 
-**Leanne_Annor-Adjaye_ICP_Project**
+**Leanne_Annor-Adjaye_ICPC-_Project-main**
  - Project directory
     - Airline.cpp
     - Airline.h
@@ -53,7 +53,7 @@ RUN
 
 `https://github.com/MaameMozuma/Leanne_Annor-Adjaye_ICPC-_Project.git`
 
-`cd Leanne_Annor-Adjaye_ICP_Project`
+`cd Leanne_Annor-Adjaye_ICPC-_Project-main`
 
 run `CLang main.cpp`
 
