@@ -13,7 +13,7 @@ To run test cases:
 - go the main.cpp file
 - find bfs("accra-rio de janeiro.txt") 
 - replace "accra-rio de janeiro.txt" with the absolute file path of the input file with quotation marks. E.g. "C:\user\downloads\accra-istanbul.txt"
-- go to the data_reader.cpp file and change the file paths of the airlines, airports and routes .csv files to the absolute file paths in order to run the code
+- go to the data_reader.cpp file and change the file paths of the airlines, airports and routes .csv files to the absolute file paths of the folder you are running it from in order to run the code
 - Run the main.cpp to test the code
 
 To change the airport, airline and route files:
