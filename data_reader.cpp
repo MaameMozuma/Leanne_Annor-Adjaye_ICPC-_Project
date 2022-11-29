@@ -34,9 +34,9 @@ DataReader::DataReader(const string& Input_file,
  */
 DataReader::DataReader(const string& Input_file){
     this->Input_file = Input_file;
-    this->Airport_file = R"(C:\Users\DELL\OneDrive - Ashesi University\Desktop\Ashesi University Files\Ashesi university Year 2, Sem 2\ICP\Leanne_Annor-Adjaye_ICP_Project\airports.csv)";
-    this->Airline_file = R"(C:\Users\DELL\OneDrive - Ashesi University\Desktop\Ashesi University Files\Ashesi university Year 2, Sem 2\ICP\Leanne_Annor-Adjaye_ICP_Project\airlines.csv)";
-    this->Route_file = R"(C:\Users\DELL\OneDrive - Ashesi University\Desktop\Ashesi University Files\Ashesi university Year 2, Sem 2\ICP\Leanne_Annor-Adjaye_ICP_Project\routes.csv)";
+    this->Airport_file = R"(airports.csv)";
+    this->Airline_file = R"(airlines.csv)";
+    this->Route_file = R"(routes.csv)";
 
     ReadAirportFile(Airport_file);
     ReadAirlineFile(Airline_file);
