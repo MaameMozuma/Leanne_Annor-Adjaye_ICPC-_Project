@@ -7,7 +7,7 @@ To run test cases:
 - create your .txt file and make sure it is in the Testing directory under CMakeFiles
 - go the main.cpp file
 - find bfs("accra-sydney.txt") 
-- replace "accra-sydney.txt" with your input file with quotation marks. E.g. "accra-istanbul.txt"
+- replace "accra-rio de janeiro.txt" with your input file with quotation marks. E.g. "accra-istanbul.txt"
 - Run the main.cpp to test the code
 
 To change the airport, airline and route files:
@@ -18,7 +18,7 @@ To change the airport, airline and route files:
 
 **Tech Stack**
 
-Clion C++ 11
+Clion C++ 14
 
 **Entry Point of Program**
 
