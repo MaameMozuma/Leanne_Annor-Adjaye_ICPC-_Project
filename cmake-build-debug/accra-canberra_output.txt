@@ -1,6 +1,0 @@
-1. EK from ACC to DXB 0 stops
-2. EK from DXB to ADL 0 stops
-3. QF from ADL to CBR 0 stops
-Total flights: 3
-Total additional stops: 0
-Optimality Criteria: flights

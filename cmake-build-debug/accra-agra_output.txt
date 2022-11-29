@@ -1,6 +1,0 @@
-1. AA from ACC to LHR 0 stops
-2. 9W from LHR to BOM 0 stops
-3. AI from BOM to AGR 0 stops
-Total flights: 3
-Total additional stops: 0
-Optimality Criteria: flights
