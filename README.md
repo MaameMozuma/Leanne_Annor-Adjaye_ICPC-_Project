@@ -4,7 +4,7 @@
 
 NB: Kindly look at Leanne_Annor-Adjaye_ICPC-_Project to see all files that were created. It includes the reflection document, csv files, c++ files and .txt files.
 To run test cases:
-- create your .txt file and make sure it is in the Testing directory under CMakeFiles
+- create your .txt file and make sure it is in the directory under cmake-build-debug
 - make sure your text file has content inside. To enter a destination, follow this format: 
   - for your source location, you can do: Accra, Ghana on the first line
   - for your destination location, you can do: Istanbul, Turkey on the second line
@@ -13,7 +13,7 @@ To run test cases:
 - go the main.cpp file
 - find bfs("accra-rio de janeiro.txt") 
 - replace "accra-rio de janeiro.txt" with the absolute file path of the input file with quotation marks. E.g. "C:\user\downloads\accra-istanbul.txt"
-- go to the data_reader.cpp file and change the file paths of the airlines, airports and routes .csv files to the absolute file paths in order to run the code
+- go to the data_reader.cpp file and change the file paths of the airlines, airports and routes .csv files to the absolute file paths of the folder you are running it from in order to run the code
 - Run the main.cpp to test the code
 
 To change the airport, airline and route files:
@@ -64,3 +64,5 @@ RUN
 run `CLang main.cpp`
 
 run `Leanne_Annor-Adjaye_ICPC-_Project-main.exe`
+
+**NB: Please create your .txt file in `cmake-build-debug` for the code to run properly**
